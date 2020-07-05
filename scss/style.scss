@@ -13,7 +13,8 @@ body {
 .container {
    max-width: 1200px;
    margin: 0 auto;
-   box-shadow: 0 0 20px rgba(0, 0, 0, 0.29)
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.29);
+   overflow: hidden;
 }
 
 ul,
@@ -52,9 +53,6 @@ h1, h2, h3 {
    display: flex;
    flex-direction: column;
    align-items: center;
-   & h1 {
-      padding-top: 50px;
-   }
 }
 .features {
    display: flex;
@@ -104,3 +102,10 @@ h1, h2, h3 {
       text-align: center;
    }
 }
+
+// offer 
+ .offer {
+    height: 190px;
+    text-align: center;
+    padding-top: 60px;
+ }

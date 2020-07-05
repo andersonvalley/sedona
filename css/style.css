@@ -17,6 +17,7 @@ body {
   margin: 0 auto;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.29);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.29);
+  overflow: hidden;
 }
 
 ul,
@@ -113,13 +114,11 @@ h1, h2, h3 {
 }
 
 .header__decore {
-  position: absolute;
-  display: block;
   margin: auto;
   left: -9999px;
   right: -9999px;
-  -webkit-transform: translateY(-57px) translateX(1px);
-          transform: translateY(-57px) translateX(1px);
+  -webkit-transform: translateY(-57px);
+          transform: translateY(-57px);
 }
 
 .img-header {
@@ -139,10 +138,6 @@ h1, h2, h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.main-title h1 {
-  padding-top: 50px;
 }
 
 .features {
@@ -214,5 +209,11 @@ h1, h2, h3 {
 .place__one {
   width: 33.3333%;
   text-align: center;
+}
+
+.offer {
+  height: 190px;
+  text-align: center;
+  padding-top: 60px;
 }
 /*# sourceMappingURL=style.css.map */
