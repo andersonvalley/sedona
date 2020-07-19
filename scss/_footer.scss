@@ -25,6 +25,13 @@
          margin-right: 15px;
       }
    }
+    &__copy-icon svg:hover {
+       fill: #81b3d2;
+    }
+    &__copy-icon svg:active {
+       fill: #bdbbbc;
+    }
+
 }
 .social {
    display: inline-flex;
@@ -38,5 +45,16 @@
          margin-top: 50%;
          transform: translateY(-50%);
       }
+      &:hover {
+         background-color: #669ec0;
+      }
+      &:active {
+         background-color: #5496bd;
+         
+      }
+      &:active svg {
+         opacity: 0.5;
+      }
    }
+   
 }
