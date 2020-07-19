@@ -116,6 +116,11 @@ h3 {
 }
 
 .header__decore {
+  background-image: url(../img/Frame_white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  height: 60px;
   margin: auto;
   left: -9999px;
   right: -9999px;
@@ -233,6 +238,11 @@ h3 {
       -ms-flex-align: center;
           align-items: center;
   height: 120px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .footer__tag {
